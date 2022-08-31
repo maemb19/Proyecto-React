@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "./images/logo.png";
+import CardWidget from "./CardWidget";
 
 const Header = () => {
   return (
@@ -16,6 +17,9 @@ const Header = () => {
         </li>
         <li className="nav-item">
           <a className="nav-link link_header" href="#">Eroteca</a>
+        </li>
+        <li>
+          <CardWidget/>
         </li>
       </ul>
     </div>

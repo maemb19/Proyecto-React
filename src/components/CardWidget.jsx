@@ -1,10 +1,10 @@
 import React from "react";
-import cart from "./images/cart.png";
+import cartImage from "./images/cart.png"
 
 const CardWidget = () => {
   return (
     <div>
-      <img src={cart} width="60px" alt="cart"/>
+      <img src={cartImage} width="100px" alt="cartshop"/>
     </div> 
   )
 }
