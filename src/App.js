@@ -6,7 +6,7 @@ function App() {
   return (
     <div className='container-fluid fondo_navbar'>
       <Header/>
-      <ItemListContainer/>
+      <ItemListContainer gretting="hola"/>
     </div>
   );
 }

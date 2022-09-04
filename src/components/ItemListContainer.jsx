@@ -6,6 +6,7 @@ const ItemListContainer = (props) => {
 
   return (
     <div>
+      {gretting}
     </div>
   )
 }
