@@ -8,7 +8,7 @@ function App() {
     <div className='container-fluid fondo_navbar'>
       <Header/>
       <hr/>
-      <ItemListContainer gretting="hola"/>
+      <ItemListContainer/>
       <ItemCount stock={5} initial={1} onAdd={0}/>
     </div>
   );

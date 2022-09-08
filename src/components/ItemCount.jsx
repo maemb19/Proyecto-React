@@ -32,7 +32,7 @@ const ItemCount = ({stock, initial, onAdd}) => {
           <div className="input-group">
             <input type="button" className="btn btn-secondary" value="-" onClick={() =>
             {restarCantidad (cantidad - 1)}}/>
-            <input type="text" className="form-control text-center" value={cantidad}/>
+            <input type="text" className="form-control text-center" value={cantidad} onChange={() => {}} />
             <input type="button" className="btn btn-secondary" value="+" onClick={() =>
             {sumarCantidad (cantidad + 1)}}/>
           </div>
