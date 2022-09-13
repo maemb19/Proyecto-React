@@ -9,6 +9,7 @@ const Item = ({id, producto, descripcion, precio, img}) => {
           <h5 className="card-title text-center"><b>{producto}</b></h5>
           <p className="card-text text-center">{descripcion}</p>
           <p className="card-text text-center">$ {precio}</p>
+          <button className="text-center bg-info">Ver Detalles</button>
         </div>
       </div>
     </div>

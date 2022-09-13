@@ -1,7 +1,8 @@
 import './App.css';
 import Header from './components/Header';
 import ItemListContainer from './components/ItemListContainer';
-import ItemCount from './components/ItemCount';
+import ItemDetailContainer from './components/ItemDetailContainer';
+
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <Header/>
       <hr/>
       <ItemListContainer/>
-      <ItemCount stock={5} initial={1} onAdd={0}/>
+      <ItemDetailContainer/>
     </div>
   );
 }

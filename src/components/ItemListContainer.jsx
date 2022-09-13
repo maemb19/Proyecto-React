@@ -10,35 +10,35 @@ const ItemListContainer = () => {
           "producto":"Oli",
           "descripcion":"Vibrador Clitorial", 
           "precio":"6250",
-          "img": "./images/oli-vibador-clitorial.png"
+          "img": "/img/oli-vibador-clitorial.png"
         },
         {
           "id": 2,
           "producto":"Tito",
           "descripcion":"Vibrador Clitorial",  
           "precio":"7350",
-          "img":"../images/tito-vibrador-clitorial.png"
+          "img":"/img/tito-vibrador-clitorial.png"
         },
         {
           "id": 3,
           "producto":"Neo Plus",
           "descripcion":"Vibrador Mini", 
           "precio":"5890",
-          "img":"../images/neo-vibrador-mini.png"
+          "img":"/img/neo-vibrador-mini.png"
         }, 
         { 
          "id": 4,
           "producto":"Mio", 
           "descripcion":"Anillo Vibrador", 
           "precio":"3900",
-          "img": "../images/mio-anillo-vibrador.png"
+          "img": "/img/mio-anillo-vibrador.png"
         },
         {
          "id": 5,
           "producto":"Tenga Eggs",
           "descripcion":"Vibrador para Pene",  
           "precio":"4980",
-          "img":"../images/tenga-egg-vibrador-pene.png"
+          "img":"/img/tenga-egg-vibrador-pene.png"
         }
       ];
 
